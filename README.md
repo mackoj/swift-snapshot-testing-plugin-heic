@@ -40,5 +40,5 @@ To utilize the HEIC image serializer in your tests, follow these steps:
 
 - [ ] make the API ready for Swift 6 and async/throwing functions
 - [ ] create a tests suite
-- [ ] add documentations
+- [x] add documentations
 - [ ] add tutorials
