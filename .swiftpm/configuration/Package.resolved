@@ -1,13 +1,13 @@
 {
-  "originHash" : "43917fd3a3b18ac5b250208d44295d89da8c2d879c4cc9b4be356a0989000cea",
+  "originHash" : "a4ad24af784550b5c1d44082a1885dc4f2d35e9072ce637253008f6eb13c7718",
   "pins" : [
     {
       "identity" : "swift-snapshot-testing",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mackoj/swift-snapshot-testing.git",
       "state" : {
-        "branch" : "54c11f6",
-        "revision" : "54c11f6eecc7fc61c71f265e807ead8ce7de379b"
+        "branch" : "b899f13",
+        "revision" : "b899f13e313ff42c9c3653e7994374debc069040"
       }
     },
     {
