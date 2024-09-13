@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> - This is a prototype implementation to test the `ImagePluginAPI` of `swift-snapshot-testing`.
+
 # swift-snapshot-testing-plugin-heic
 
 This repo is an experimental use of this branch(https://github.com/pointfreeco/swift-snapshot-testing/pull/904) that contains a PluginAPI for `swift-snapshot-testing`.
