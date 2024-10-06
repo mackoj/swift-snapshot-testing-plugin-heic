@@ -13,37 +13,37 @@ To utilize the HEIC image serializer in your tests, follow these steps:
 
 1. **Add the Dependency**: Include this project as a dependency in your `Package.swift` file:
 
-    ```swift
+```swift
     .package(url: "https://github.com/mackoj/swift-snapshot-testing-plugin-heic.git", revision: "0.0.1"),
-    ```
+```
 
 2. **Link to Your Test Target**: Add the HEICImageSerializer to your test target's dependencies:
 
-    ```swift
+```swift
     .product(name: "HEICImageSerializer", package: "swift-snapshot-testing-plugin-heic"),
-    ```
+```
 
 3. **Import and Set Up**: In your test file, import the serializer and set the image format in the `setUp()` method:
 
-    ```swift
+```swift
     import HEICImageSerializer
 
     override class func setUp() {
         SnapshotTesting.imageFormat = HEICImageSerializer.imageFormat
     }
-    ```
+```
 
 > [!IMPORTANT]  
 > On non Apple platform use this instead.
 
-    ```swift
+```swift
     import HEICImageSerializer
 
     override class func setUp() {
         SnapshotTesting.imageFormat = HEICImageSerializer.imageFormat
         PluginRegistry.registerPlugin(HEICImageSerializer.init())
     }
-    ```
+```
 
 ## TODO
 
