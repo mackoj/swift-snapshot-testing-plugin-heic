@@ -33,6 +33,18 @@ To utilize the HEIC image serializer in your tests, follow these steps:
     }
     ```
 
+> [!IMPORTANT]  
+> On non Apple platform use this instead.
+
+    ```swift
+    import HEICImageSerializer
+
+    override class func setUp() {
+        SnapshotTesting.imageFormat = HEICImageSerializer.imageFormat
+        PluginRegistry.registerPlugin(HEICImageSerializer.init())
+    }
+    ```
+
 ## TODO
 
 - [ ] make the API ready for Swift 6 and async/throwing functions
