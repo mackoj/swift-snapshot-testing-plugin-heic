@@ -33,12 +33,6 @@ To utilize the HEIC image serializer in your tests, follow these steps:
     }
     ```
 
-4. **Per Assertion**: Alternatively, specify the image format for individual assertions: 
-
-    ```swift
-    assertSnapshot(of: label, as: .image(precision: 0.9, format: .heic))
-    ```
-
 ## TODO
 
 - [ ] make the API ready for Swift 6 and async/throwing functions
